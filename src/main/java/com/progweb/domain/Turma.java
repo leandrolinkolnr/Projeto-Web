@@ -27,6 +27,10 @@ public class Turma {
     private String sala;
 
     
+    @Column(name = "professor") 
+    private Professor professor;
+
+    
     public Turma(String name, String sala) {
         this.name = name;
        this.sala = sala;
